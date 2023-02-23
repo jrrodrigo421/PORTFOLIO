@@ -10,8 +10,7 @@ $(document).ready(function(){
 });
 
 
-
-// function start(){
-//   alert('teste')
-// }
-// start()
+$('.menu-btn').click(function(){
+  $('.navbar .menu').toggleClass("active");
+  $('.menu-btn i').toggleClass("active");
+});

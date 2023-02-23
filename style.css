@@ -96,7 +96,25 @@
   font-weight: 500;
 }
 
+.home .home-content a{
+  display: inline-block;
+  background: #00804b;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 2px solid #00804b;
+}
+.home .home-content a:hover{
+  color: #00804b;
+  /* background: #fff; */
+  background: none;
+
+}
+
 /* Menu Mobile  */
+
 .menu-btn{
   color: #fff;
   font-size: 30px;
@@ -106,6 +124,7 @@
 
 /* Responsivo  */
 
+
 @media (max-width: 1104px){
   .navbar .max-width{
     margin-left: 0;
@@ -113,9 +132,12 @@
 }
 @media (max-width: 991px){
   .navbar .max-width{
-    margin-left: 0 50px;
+    padding: 0 50px;
   }
 }
+
+
+
 @media (max-width: 947px){
   .max-width{
     padding: 0 50px;
@@ -128,9 +150,9 @@
     position: fixed;
     width: 100%;
     height: 100vh;
-    left: 0;
+    left: -100;
     top: 0;
-    background-color: black;
+    background-color: #111;
     padding-top: 80px;
     text-align: center;
     transition: all 0.3s ease;
@@ -148,7 +170,6 @@
   }
   .home .home-content .text-2{
     font-size: 70px;
-   
   }
   .home .home-content .text-3{
     font-size: 35px;
@@ -163,5 +184,13 @@
   .home .home-content .text-3{
     font-size: 32px;
   }
-
 }
+@media (max-width: 500px){
+  .home .home-content .text-2{
+    font-size: 50px;
+   
+  }
+  .home .home-content .text-3{
+    font-size: 27px;
+  }
+} 
