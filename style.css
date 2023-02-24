@@ -228,7 +228,7 @@ section{
 
 @media (max-width: 947px){
   .max-width{
-	  /* max-width: 800px; */
+	  max-width: 800px;
     padding: 0 50px;
   }
   .menu-btn{
@@ -270,6 +270,14 @@ section{
 }
 .about .about-content .left .column{
   width: 50%;
+}
+.about .about-content .left {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
+}
+.about .about-content .right{
+  flex: 100%;;
 }
 
 @media (max-width: 690px){
