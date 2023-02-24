@@ -3,8 +3,7 @@
 ## Site Responsivo [ HTML, CSS, JavaScript (Jquery) ]
 
 
-  Portfólio ainda em desenvolvimento.
-
-Mas já disponível para acompanhamento em tempo real as mudanças futuras que serão realizadas:
+Portfólio ainda em desenvolvimento [loading]
+Mas já disponível para acompanhamento em tempo real para mudanças futuras que serão realizadas:
 
 https://rodrigolopes.netlify.app
