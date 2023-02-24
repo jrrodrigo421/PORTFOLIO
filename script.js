@@ -19,4 +19,7 @@ document.getElementById("contratar").addEventListener("click", function() {
   window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
 });
 
+document.getElementById("github").addEventListener("click", function() {
+  window.location.href = "https://github.com/jrrodrigo421";
+});
 
