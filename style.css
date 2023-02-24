@@ -15,13 +15,13 @@
 .navbar{
   position: fixed;
   width: 100%;
-  /* background: hsla(0, 91%, 41%, 0.66);; */
+  /* background: hsla(0, 93%, 51%, 0.821);; */
   padding: 15px 0;
   font-family: 'ubuntu', sans-serif;
 }
 .navbar.sticky{
-  background: hsla(0, 91%, 41%, 0.66);
-  /* background: hsla(0, 91%, 41%, 0.66); */
+  background: hsla(0, 93%, 51%, 0.821);
+  background: hsla(0, 93%, 51%, 0.821);
   padding: 15px 0;
 }
 .navbar .max-width {
@@ -36,7 +36,7 @@
   font-weight: 500px;
 }
 .navbar .logo a span{
-  color: hsla(0, 91%, 41%, 0.66);;
+  color: hsla(0, 93%, 51%, 0.821);;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -57,7 +57,7 @@
 
 }
 .navbar .menu li a:hover{
-  color: hsla(0, 91%, 41%, 0.66);;
+  color: hsla(0, 93%, 51%, 0.821);;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -93,22 +93,22 @@
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
-  color: hsla(0, 91%, 41%, 0.66);;
+  color: hsla(0, 93%, 51%, 0.821);;
   font-weight: 500;
 }
 
 .home .home-content a{
   display: inline-block;
-  background: hsla(0, 91%, 41%, 0.66);;
+  background: hsla(0, 93%, 51%, 0.821);;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 30px;
-  border: 2px solid hsla(0, 91%, 41%, 0.66);;
+  border: 2px solid hsla(0, 93%, 51%, 0.821);;
 }
 .home .home-content a:hover{
-  color: hsla(0, 91%, 41%, 0.66);;
+  color: hsla(0, 93%, 51%, 0.821);;
   /* background: #fff; */
   background: none;
 
