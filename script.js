@@ -14,3 +14,9 @@ $('.menu-btn').click(function(){
   $('.navbar .menu').toggleClass("active");
   $('.menu-btn i').toggleClass("active");
 });
+
+document.getElementById("contratar").addEventListener("click", function() {
+  window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
+});
+
+
