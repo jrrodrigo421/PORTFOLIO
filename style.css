@@ -209,9 +209,15 @@ section{
 }
 
 /* Responsivo  */
-@media (max-width: 1104px){
+@media (max-width: 1300){
   .navbar .max-width{
     margin-left: 0;
+  }
+}
+@media (max-width: 1104px){
+  .about .about-content .left img{
+    width: 350px;
+    height: 350px;
   }
 }
 @media (max-width: 991px){
@@ -261,6 +267,9 @@ section{
     font-size: 23px;
     padding: 10px 30px;
   }
+}
+.about .about-content .left .column{
+  width: 50%;
 }
 
 @media (max-width: 690px){
