@@ -181,6 +181,7 @@ section{
 }
 .about .about-content .right .text span{
   color: hsla(0, 93%, 42%, 0.851);
+  font-weight: bold;
 }
 .about .about-content .right .description p{
   text-align: justify;
