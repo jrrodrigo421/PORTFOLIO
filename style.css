@@ -21,8 +21,8 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky{
-  background: hsla(0, 93%, 51%, 0.821);
-  /* background: hsla(0, 93%, 51%, 0.821); */
+  background: hsla(0, 93%, 42%, 0.851);
+  /* background: hsla(0, 93%, 42%, 0.851); */
   padding: 15px 0;
 }
 .navbar .max-width {
@@ -37,7 +37,7 @@
   font-weight: 500px;
 }
 .navbar .logo a span{
-  color: hsla(0, 93%, 51%, 0.821);;
+  color: hsla(0, 93%, 42%, 0.851);;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -58,7 +58,7 @@
 
 }
 .navbar .menu li a:hover{
-  color: hsla(0, 93%, 51%, 0.821);;
+  color: hsla(0, 93%, 42%, 0.851);;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -94,22 +94,22 @@
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
-  color: hsla(0, 93%, 51%, 0.821);;
+  color: hsla(0, 93%, 42%, 0.851);;
   font-weight: 500;
 }
 
 .home .home-content a{
   display: inline-block;
-  background: hsla(0, 93%, 51%, 0.821);;
+  background: hsla(0, 93%, 42%, 0.851);;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 30px;
-  border: 2px solid hsla(0, 93%, 51%, 0.821);;
+  border: 2px solid hsla(0, 93%, 42%, 0.851);;
 }
 .home .home-content a:hover{
-  color: hsla(0, 93%, 51%, 0.821);
+  color: hsla(0, 93%, 42%, 0.851);
   /* background: #fff; */
   background: none;
 
@@ -163,7 +163,7 @@ section{
   left: 50%;
   font-size: 20px;
   background: #fff;
-  color: hsla(0, 93%, 51%, 0.821);
+  color: hsla(0, 93%, 42%, 0.851);
   padding: 5px;
   margin-top: 10px;
   transform: translateX(-50%);
@@ -180,25 +180,25 @@ section{
   margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-  color: hsla(0, 93%, 51%, 0.821);
+  color: hsla(0, 93%, 42%, 0.851);
 }
 .about .about-content .right .description p{
   text-align: justify;
 }
 .about .about-content .right a{
   display: inline-block;
-  background-color: hsla(0, 93%, 51%, 0.821);
+  background-color: hsla(0, 93%, 42%, 0.851);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 10px;
   border-radius: 30px;
-  border: 2px solid hsla(0, 93%, 51%, 0.821);
+  border: 2px solid hsla(0, 93%, 42%, 0.851);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-  color: hsla(0, 93%, 51%, 0.821);
+  color: hsla(0, 93%, 42%, 0.851);
   background: #111;
 }
 .about .about-content .left img{
