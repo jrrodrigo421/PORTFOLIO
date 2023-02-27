@@ -276,7 +276,6 @@ section .title::after{
     padding: 0 50px;
   }
 }
-
 @media (max-width: 947px){
   .max-width{
 	  max-width: 800px;
