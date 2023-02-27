@@ -224,7 +224,6 @@ section .title::after{
   background: #fff;
 }
 .services .title::after{
-  /* background:rgb(244, 228, 228); */
   content: "Trajatória Profissional:";
   background-color: #111;
 }
@@ -333,8 +332,6 @@ section .title::after{
     margin-bottom: 20px;
   }
 }
-
-
 @media (max-width: 690px){
   .home .home-content .text-2{
     font-size: 60px;
