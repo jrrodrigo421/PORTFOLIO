@@ -142,9 +142,9 @@ section .title::before{
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 180px;
+  width: 280px;
   height: 3px;
-  background: #111;
+  background: rgb(13, 13, 13);
   transform: translateX(-50%);
 }
 section .title::after{
@@ -224,8 +224,9 @@ section .title::after{
   background: #fff;
 }
 .services .title::after{
-  background:#fff;
-  content: "Oque oferecemos";
+  /* background:rgb(244, 228, 228); */
+  content: "Trajatória Profissional:";
+  background-color: #111;
 }
 .services .serv-content .card{
   width: calc(50% - 20%);
@@ -257,7 +258,6 @@ section .title::after{
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-
 
 /* Responsivo  */
 @media (max-width: 1300){
