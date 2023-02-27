@@ -11,7 +11,9 @@
   padding: 0 80px;
   margin: auto;
 }
+
 /* nav-bar inicio */
+
 .navbar{
   position: fixed;
   width: 100%;
@@ -30,7 +32,6 @@
   text-align: center;
   justify-content: space-between;
 }
-
 .navbar .logo a{
   color: #fff;
   font-size: 35px;
@@ -44,7 +45,6 @@
   color: #fff;
   transition: all 0.3s ease;
 }
-
 .navbar .menu li{
   list-style: none;
   display: inline-block;
@@ -55,7 +55,6 @@
    font-weight: 500;
    margin-left: 25px;
    transition: color 0.3s ease;
-
 }
 .navbar .menu li a:hover{
   color: hsla(0, 93%, 42%, 0.851);;
@@ -63,7 +62,9 @@
 .navbar.sticky .menu li a:hover {
   color: #fff;
 }
+
 /* home inicio */
+
 .home{
   display: flex;
   background: url(./img/fundo.jpg) no-repeat center;
@@ -125,6 +126,7 @@
 }
 
 /* todos codigos similares  */
+
 section{
   padding: 100px 0;
 }
@@ -158,19 +160,20 @@ section .title::after{
   margin-top: 10px;
   transform: translateX(-50%);
 }
-
-/* Sessao Sobre  */
-
-.about, .services{
+.about, .services, .skills{
   font-family: 'Roboto', sans-serif;
 }
 .about .about-content, 
-.services .serv-content{
+.services .serv-content,
+.skills .skills-content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
+
+/* Sessao Sobre  */
+
 .about .title::after{
   content: "Quem sou eu";
 }
@@ -216,6 +219,7 @@ section .title::after{
 }
 
 /* Sessão Experiencia/services  */
+
 .services{
   background: #111;
   color: #fff;
@@ -224,7 +228,7 @@ section .title::after{
   background: #fff;
 }
 .services .title::after{
-  content: "Trajatória Profissional:";
+  content: "Trajatória:";
   background-color: #111;
 }
 .services .serv-content .card{
@@ -258,7 +262,31 @@ section .title::after{
   margin: 10px 0 7px 0;
 }
 
+/* sessão Especilidades */
+.skills .title::after{
+  content: "Oque Faço:";
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .bars .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
 /* Responsivo  */
+
 @media (max-width: 1300){
   .navbar .max-width{
     margin-left: 0;
