@@ -15,18 +15,18 @@ $(document).ready(function(){
        $('html').animate({scrollTop: 0});
    });
 
-   var typed = new Typed(".typing", {
-       strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
-       typeSpeed:100,
-       backSpeed:60,
-       loop:true
-   });
-   var typed = new Typed(".typing-2", {
-      strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
-      typeSpeed:100,
-      backSpeed:60,
-      loop:true
-  });
+  //  var typed = new Typed(".typing", {
+  //      strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
+  //      typeSpeed:100,
+  //      backSpeed:60,
+  //      loop:true
+  //  });
+  //  var typed = new Typed(".typing-2", {
+  //     strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
+  //     typeSpeed:100,
+  //     backSpeed:60,
+  //     loop:true
+  // });
 
   $('.menu-btn').click(function(){
       $('.navbar .menu').toggleClass("active");

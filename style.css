@@ -126,10 +126,10 @@
 }
 
 .scroll-up-btn.show{
-  bottom: 30px;
-  opacity: 1;
-  pointer-events:auto;
-  
+    bottom: 30px;
+    opacity: 1;
+    pointer-events:auto;
+    
 }
 
 /* todos codigos similares  */
