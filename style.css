@@ -341,7 +341,7 @@ section .title::after{
   background: #fff;
 }
 .contact .title::after{
-  content: "Informaçãoes:";
+  content: "Informações:";
   background-color: #111;
 }
 
