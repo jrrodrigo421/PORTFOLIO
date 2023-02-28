@@ -389,7 +389,7 @@ section .title::after{
   display: inline-block;
   background: hsla(0, 93%, 42%, 0.851);;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 30px;
@@ -537,7 +537,7 @@ footer span a:hover{
     margin-bottom: 20px;
   }
   .skills .skills-content .column,
-  .contact .contact .column{
+  .contact .contact-content .column{
     width: 100%;
     margin-bottom: 35px;
   }
@@ -571,3 +571,9 @@ footer span a:hover{
     font-size: 27px;
   }
 } 
+@media(max-width: 700px){
+  .contact .contact-content .column{
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}

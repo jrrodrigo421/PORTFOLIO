@@ -62,7 +62,3 @@ $(document).ready(function(){
 document.getElementById("contratar").addEventListener("click", function() {
   window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
 });
-
-
-
-    // strings:["Estudande", "Desenvolvedor", "Formado em Gestão de Telecomunicações", "Freelancer","Procurando a primeira oportunidade como DEV JR"],
