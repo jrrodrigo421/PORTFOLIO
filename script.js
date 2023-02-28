@@ -15,18 +15,18 @@ $(document).ready(function(){
        $('html').animate({scrollTop: 0});
    });
 
-  //  var typed = new Typed(".typing", {
-  //      strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
-  //      typeSpeed:100,
-  //      backSpeed:60,
-  //      loop:true
-  //  });
-  //  var typed = new Typed(".typing-2", {
-  //     strings:["YouTuber", "Desenvolvedor", "Designer", "Freelancer"],
-  //     typeSpeed:100,
-  //     backSpeed:60,
-  //     loop:true
-  // });
+   var typed = new Typed(".typing", {
+       strings:[" à procura da primeira oportunidade como Desenvolvedor JR"],
+       typeSpeed:100,
+       backSpeed:60,
+       loop:true
+  });
+   var typed = new Typed(".typing-2", {
+      strings:["Estudande de Programação", "Formado em Gestão de Telecomunicações pelo INATEL","Apaixonado por tecnologia"],
+      typeSpeed:100,
+      backSpeed:60,
+      loop:true
+  });
 
   $('.menu-btn').click(function(){
       $('.navbar .menu').toggleClass("active");
