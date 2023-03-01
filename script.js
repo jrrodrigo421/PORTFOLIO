@@ -17,7 +17,7 @@ $(document).ready(function(){
 
    var typed = new Typed(".typing", {
        strings:[" à procura de uma oportunidade como Desenvolvedor JR."],
-       typeSpeed:100,
+       typeSpeed:50,
        backSpeed:60,
        loop:true
   });
