@@ -22,7 +22,7 @@ $(document).ready(function(){
        loop:true
   });
    var typed = new Typed(".typing-2", {
-      strings:["Estudande de Programação,", "Formado em Gestão de Telecomunicações pelo INATEL,","em busca do aperfeiçoamento profissional,"],
+      strings:["Estudande de Programação,", "Formado em Gestão de Telecomunicações pelo INATEL,","de Santa Rita do Sapucaí - MG,"],
       typeSpeed:20,
       backSpeed:80,
       loop:true
