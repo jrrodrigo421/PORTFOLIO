@@ -19,6 +19,7 @@ $(document).ready(function(){
        strings:[" Seja bem vindo ao meu Portfólio Online, aqui você encontra algumas experiências profissionais, Habilidades, Currículo, GitHub e Infomações para Contato!"],
        typeSpeed:30,
        backSpeed:20,
+       backDelay:4000,
        loop:true
   });
    var typed = new Typed(".typing-2", {
