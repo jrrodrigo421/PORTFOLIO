@@ -16,9 +16,9 @@ $(document).ready(function(){
    });
 
    var typed = new Typed(".typing", {
-       strings:[" à procura de uma oportunidade como Desenvolvedor JR."],
-       typeSpeed:50,
-       backSpeed:80,
+       strings:[" Seja bem vindo ao meu Portfólio Online, aqui você encontra algumas experiências profissionais, Habilidades, Currículo, GitHub e Infomações para Contato!"],
+       typeSpeed:30,
+       backSpeed:20,
        loop:true
   });
    var typed = new Typed(".typing-2", {
