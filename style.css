@@ -23,7 +23,7 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky{
-  background: hsla(0, 93%, 42%, 0.851);
+  background: linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
   /* background: hsla(0, 93%, 42%, 0.851); */
   padding: 15px 0;
 }
@@ -38,7 +38,7 @@
   font-weight: 500px;
 }
 .navbar .logo a span{
-  color: hsla(0, 93%, 42%, 0.851);;
+  color:rgb(87, 30, 128);
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -57,7 +57,7 @@
    transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-  color: hsla(0, 93%, 42%, 0.851);;
+  color:  rgb(104, 40, 149);
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -95,7 +95,7 @@
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
-  color: hsla(0, 93%, 42%, 0.851);;
+  color: rgb(104, 40, 149);
   font-weight: 500;
 }
 
@@ -110,7 +110,7 @@
   border: 2px solid hsla(0, 93%, 42%, 0.851);;
 } */
 .home .home-content a:hover{
-  color: hsla(0, 93%, 42%, 0.851);
+  color:  rgb(104, 40, 149);
   /* background: #fff; */
   background: none;
 
@@ -133,7 +133,7 @@
   text-align: center;
   line-height: 50px;
   color: #fff;
-  background: hsla(0, 93%, 42%, 0.851);
+  background:linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
   border-radius: 6px;
   font-size: 30px;
   z-index: 9999;
@@ -170,7 +170,7 @@ section .title::before{
   left: 50%;
   width: 280px;
   height: 3px;
-  background: rgb(13, 13, 13);
+  background: linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
   transform: translateX(-50%);
 }
 section .title::after{
@@ -179,7 +179,7 @@ section .title::after{
   left: 50%; 
   font-size: 20px;
   background: #fff;
-  color: hsla(0, 93%, 42%, 0.851);
+  color: rgb(104, 40, 149);
   padding: 5px;
   margin-top: 10px;
   transform: translateX(-50%);
@@ -214,7 +214,7 @@ section .title::after{
   margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-  color: hsla(0, 93%, 42%, 0.851);
+  color: rgb(104, 40, 149);
   font-weight: bold;
 }
 .about .about-content .right .description p{
@@ -222,19 +222,19 @@ section .title::after{
 }
 .about .about-content .right a{
   display: inline-block;
-  background-color: hsla(0, 93%, 42%, 0.851);
+  background-color:rgb(104, 40, 149);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 10px;
   border-radius: 30px;
-  border: 2px solid hsla(0, 93%, 42%, 0.851);
+  border: 2px solid rgb(104, 40, 149);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-  color: hsla(0, 93%, 42%, 0.851);
-  background: #111;
+  color: rgb(104, 40, 149);
+  background: linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
 }
 .about .about-content .left img{
   width: 400px;
@@ -246,7 +246,7 @@ section .title::after{
 /* Sessão Experiencia/services  */
 
 .services, .contact{
-  background: #111;
+  background: linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
   color: #fff;
 }
 .services .title::before{
@@ -266,7 +266,7 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-  color: hsla(0, 93%, 42%, 0.851);
+  color: rgb(175, 121, 213);
 }
 .services .serv-content .card .box{
   transition: all 0.3s ease;
@@ -276,7 +276,7 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
   font-size: 70px;
-  color: hsla(0, 93%, 42%, 0.851);
+  color: rgb(104, 40, 149);
 }
 .services .serv-content .card:hover ion-icon{
   color: #fff;
@@ -304,18 +304,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background-color: hsla(0, 93%, 42%, 0.851);
+    background-color: rgb(104, 40, 149);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 10px;
     border-radius: 30px;
-    border: 2px solid hsla(0, 93%, 42%, 0.851);
+    border: 2px solid rgb(104, 40, 149);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-  color: hsla(0, 93%, 42%, 0.851);
+  color: rgb(104, 40, 149);
   background: none;
 }
 .skills .skills-content .right .bars{
@@ -342,7 +342,7 @@ section .title::after{
   height: 100%;
   top: 0;
   left: 0;
-  background: hsla(0, 93%, 42%, 0.851);
+  background: linear-gradient(35deg,rgb(6,0,151) 0%,rgb(130,4,255) 73%,rgb(193,15,255) 100%);
 }
 .skills .skills-content .right .python::before{
   width: 70%;
@@ -399,18 +399,18 @@ section .title::after{
 }
 .contact .contact-content .row ion-icon{
   font-size: 25px;
-  color:hsla(0, 93%, 42%, 0.851);
+  color:#fff;
 }
 
 .contact .contact-content a{
   display: inline-block;
-  background: hsla(0, 93%, 42%, 0.851);;
+  background: rgb(9, 1, 15);
   color: #fff;
   font-size: 20px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 30px;
-  border: 2px solid hsla(0, 93%, 42%, 0.851);
+  border: 2px solid rgb(9, 1, 15);
 }
 
 /* .contact .right form .fields{
