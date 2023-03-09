@@ -472,7 +472,7 @@ footer{
   text-align: center;
 }
 footer span a{
-  color: hsla(0, 93%, 42%, 0.851);;
+  color: rgb(104, 40, 149);
   text-decoration: none;
 }
 footer span a:hover{
@@ -512,7 +512,7 @@ footer span a:hover{
     height: 100vh;
     left: -100%;
     top: 0;
-    background-color: #111;
+    background-color: rgb(104, 40, 149);
     padding-top: 80px;
     text-align: center;
     transition: all 0.3s ease;
