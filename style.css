@@ -25,7 +25,7 @@
 .navbar.sticky{
   /* background: #193735; */
   
-  background: #193735;
+  background: #060606;
   padding: 15px 0;
 }
 .navbar .max-width {
@@ -75,8 +75,9 @@
 
 .home{
   display: flex;
-  background: url(./img/pc.png) no-repeat center;
-  height: 100vh;
+  background: url(./img/front1.jpg) no-repeat center;
+  /* background-size: 1700px 1260px; */
+  height: 120vh;
   color: #fff;
   min-height: 500px;
   font-family: 'ubuntu', sans-serif;
@@ -103,7 +104,7 @@
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
-  color: #527674;
+  color: #ebf0f0;
   font-weight: 500;
 }
 
@@ -254,8 +255,8 @@ section .title::after{
 
 /* Sessão Experiencia/services  */
 
-.services, .contact{
-  background: url(./img/linux.png);
+.services {
+  background: #193735;
   color: #fff;
 }
 .services .title::before{
@@ -373,6 +374,10 @@ section .title::after{
 }
 
 /* sessão contato  */
+.contact{
+  background: url(./img/linux.png);
+  color: #fff;
+}
 
 .contact .title::before{
   background: #fff;
@@ -415,7 +420,7 @@ section .title::after{
 }
 .contact .contact-content a{
   display: inline-block;
-  background: #527674;
+  background: #0ac626;
   color: #fff;
   font-size: 20px;
   padding: 12px 36px;
