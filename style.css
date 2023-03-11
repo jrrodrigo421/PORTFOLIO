@@ -75,7 +75,7 @@
 
 .home{
   display: flex;
-  background: url(./img/fundo.jpg) no-repeat center;
+  background: url(./img/pc.png) no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
