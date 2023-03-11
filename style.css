@@ -425,6 +425,11 @@ section .title::after{
   border: 2px solid #193735;
 }
 
+
+.cidade .linkedin .whatsapp .github {
+  cursor: pointer;
+}
+
 /* .contact .right form .fields{
   display: flex;
 }

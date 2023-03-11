@@ -59,3 +59,17 @@ $(document).ready(function(){
 document.getElementById("contratar").addEventListener("click", function() {
   window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
 });
+
+document.getElementById("whatsapp").addEventListener("click", function() {
+    window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
+  });
+
+  document.getElementById("cidade").addEventListener("click", function() {
+    window.location.href = "https://www.google.com/search?q=Santa+Rita+do+Sapica%C3%AD+MG&oq=Santa+Rita+do+Sapica%C3%AD+MG&aqs=chrome..69i57.12009j0j1&sourceid=chrome&ie=UTF-8";
+  });
+  document.getElementById("linkedin").addEventListener("click", function() {
+    window.location.href = "https://www.linkedin.com/in/rodrigo-lopes-jr/";
+  });
+  document.getElementById("github").addEventListener("click", function() {
+    window.location.href = "https://github.com/jrrodrigo421";
+  });
