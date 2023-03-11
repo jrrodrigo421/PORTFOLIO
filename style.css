@@ -209,6 +209,7 @@ section .title::after{
 
 .about .title::after{
   content: "Quem sou eu";
+  background-color: black;
 }
 .about .about-content .left{
   width: 45%;
@@ -297,8 +298,9 @@ section .title::after{
 
 /* sessão Especilidades */
 .skills .title::after{
-  padding-top: 10px;
+  /* padding-top: 10px; */
   content: "Soft/Hard Skills";
+  background-color: black;
 
 }
 .skills .skills-content .column{
@@ -599,6 +601,13 @@ footer span a:hover{
   }
 } 
 @media(max-width: 700px){
+  .contact .contact-content .column{
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media(max-width: 300px){
+  .skills .skills-content .column,
   .contact .contact-content .column{
     width: 100%;
     margin-bottom: 35px;
