@@ -300,7 +300,7 @@ section .title::after{
 /* sessão Especilidades */
 .skills .title::after{
   /* padding-top: 10px; */
-  content: "Soft/Hard Skills";
+  content: "Habilidades";
   background-color: black;
 
 }
