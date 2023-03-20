@@ -73,3 +73,6 @@ document.getElementById("whatsapp").addEventListener("click", function() {
   document.getElementById("github").addEventListener("click", function() {
     window.location.href = "https://github.com/jrrodrigo421";
   });
+  document.getElementById("email").addEventListener("click", function() {
+    window.location.href = "mailto:rodrigoplopesjr@gmail.com";
+  });
