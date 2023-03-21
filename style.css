@@ -313,7 +313,7 @@ section .title::after{
   margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-  text-align: justify ;
+  text-align: justify;
 }
 .skills .skills-content .left a{
     display: inline-block;
