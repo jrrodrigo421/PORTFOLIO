@@ -75,8 +75,8 @@
 
 .home{
   display: flex;
-  background: url(./img/fundo.jpg) no-repeat center;
-  /* background-size: 1700px 1260px; */
+  background: url(./img/fundo.webp);
+  background-size: 1700px 1080px;
   height: 120vh;
   color: #fff;
   min-height: 500px;
@@ -101,6 +101,7 @@
 }
 .home .home-content .text-3{
   font-size: 30px;
+  padding-right: 700px;
   margin: 5px 0;
 }
 .home .home-content .text-3 span{
@@ -375,7 +376,7 @@ section .title::after{
 
 /* sessão contato  */
 .contact{
-  background: url(./img/fundo.jpg);
+  background: url(./img/fundo1.jpg);
   color: #fff;
 }
 
