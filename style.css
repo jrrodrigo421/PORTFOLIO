@@ -74,7 +74,7 @@
 /* home inicio */
 
 .home{
-  display: flex;
+  /* display: flex; */
   background: url(./img/fundo.webp);
   background-size: 1700px 1080px;
   height: 120vh;
@@ -497,6 +497,15 @@ footer span a:hover{
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+  }
+  .home{
+    background: url(./img/responsivehome.jpg);
+    background-size: 1000px 1000px;
+
+    /* position: absolute;
+    
+    max-width: 100%; */
+    
   }
   .home .home-content {
     margin-top: 40px;
