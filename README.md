@@ -1,9 +1,8 @@
-# Portfólio para currículo 1.0
+# Meu Portfólio
 
 ## Site Responsivo [ HTML, CSS, JavaScript (Jquery) ]
 
 
-Portfólio ainda em desenvolvimento [ loading ... ]
-Mas já disponível para acompanhamento em tempo real para mudanças futuras que serão realizadas:
+Versão 1.0
 
 https://rodrigolopes.netlify.app
