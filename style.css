@@ -43,11 +43,11 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-  color: rgb(10, 10, 10);
+  color: rgb(252, 252, 252);
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a{
-  color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
   transition: all 0.3s ease;
 }
 .navbar .menu li{
