@@ -38,6 +38,10 @@
           ...
         </div> -->
         <!-- <p id="subtituloContador">Contador de visitas: <span id="visits" >Carregando...</span></p> -->
+        <!-- <div id="analyticsData">
+          Carregando...
+        </div> -->
+        
         <ul class="menu">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Sobre</a></li>
@@ -80,9 +84,9 @@
               <br>  
               <p><h4>Linguagens estudadas/trabalhadas:</h4></p> 
               <ul>
-                <li>Java 8 + </li>
+                <li>Java 8 e 17 com Framework Spring Boot 1.4 e 3.0 </li>
                 <li>Python</li>
-                <li>JavaScript</li>
+                <li>JavaScript e TypeScript com framework Express</li>
                 <li>SQL</li>
               </ul>
               <br>
@@ -180,11 +184,12 @@
               <p>Desenvolvedor de Software</p>
               <br>
               <p>Atualmente trabalhando em projetos com as principais tecnologias de
-                desenvolvimento: JAVA com SpringBoot para o backEnd, HTML5, CSS3,
-                JavaScript para o FrontEnd, MySQL e PostgreSQL - Banco de Dados, testes
-                em serviço utilizando o Postman, consumo e manutenção de microserviços
-                em Python, JIRA para acompanhamento da Sprint, GitHub para o
-                versionamento;</p>
+                desenvolvimento: JAVA com SpringBoot para o backEnd e também
+                TypeScript com Express, HTML5, CSS3, JavaScript para o FrontEnd, MySQL e
+                PostgreSQL - Banco de Dados, testes em serviço utilizando o Postman,
+                consumo e manutenção de microserviços em Python, JIRA para
+                acompanhamento da Sprint, GitHub para o versionamento do código e AWS
+                para deploy, hospedagem e testes das aplicações;</p>
           </div>
         </div>  
 
@@ -216,7 +221,7 @@
           <div class="column right">
             <div class="bars">
                 <div class="info">
-                    <span>Java 8 + </span>
+                    <span>Java 8 e 17 </span>
                     <span>84%</span>
                 </div>
                 <div class="line python"></div>
@@ -225,15 +230,15 @@
             <div class="bars">
               <div class="info">
                   <span>Python</span>
-                  <span>76%</span>
+                  <span>80%</span>
               </div>
               <div class="line python"></div>
               
           </div>
           <div class="bars">
             <div class="info">
-                <span>JavaScript</span>
-                <span>70%</span>
+                <span>JavaScript - TypeScript</span>
+                <span>60%</span>
             </div>
             <div class="line js"></div>
         </div>
@@ -263,7 +268,7 @@
          <div class="bars">
              <div class="info">
                  <span>Banco de Dados Relacional - MySql e PostgreSql</span>
-                 <span>72%</span>
+                 <span>90%</span>
              </div>
              <div class="line mysql"></div>
          </div>
@@ -334,6 +339,40 @@
   <footer>
     <span>Criado por <a href="#">Rodrigo Lopes</a> | Todos os direitos reservados ®  2023</span>
 </footer>
+
+
+ <!-- Código do Google Analytics -->
+ <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-W07S62HMJ5"></script>
+ <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-W07S62HMJ5');
+ </script> -->
+
+ <!-- Seu código JavaScript personalizado -->
+ <!-- <script>
+   function updateAnalyticsData() {
+     const analyticsDataDiv = document.getElementById("analyticsData");
+
+     gtag('config', 'G-W07S62HMJ5', {
+       'send_page_view': false
+     });
+
+     gtag('event', 'page_view', {
+       'send_to': 'G-W07S62HMJ5',
+       'event_callback': function() {
+         const visitsLast7Days = gtag('get', 'event', 'page_view', {
+           'dateRanges': '7daysAgo'
+         });
+         analyticsDataDiv.innerHTML = "Visitas no último 7 dias: " + visitsLast7Days[0].metrics[0].values[0];
+       }
+     });
+   } -->
+
+   <!-- // Chame a função para atualizar as informações ao carregar a página -->
+   <!-- window.onload = updateAnalyticsData; -->
+ <!-- </script> -->
 
 <!-- <script>
   function cb(response) {
